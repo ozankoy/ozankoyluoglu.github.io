@@ -18,7 +18,7 @@ border: 0px none;
 text-decoration: none;
 }
 
-a.imgtext:link, a.imgtext:visited, a.imgtext:active {background-color: #002147;
+a.imgtext:link, a.imgtext:visited, a.imgtext:active {background-color: #003262;
 color: #FFFFFF;
 padding: 0px;
 border: 0px none;
@@ -26,13 +26,13 @@ text-decoration: none;
 }
 
 a.imgtext:hover {background-color: #FFFFFF;
-color: #002147;
+color: #003262;
 padding: 0px;
 border: 0px none;
 text-decoration: none;
 }
 
-a.imgcc:link, a.imgcc:visited, a.imgcc:active, a.imgcc:hover {background-color: #002147;
+a.imgcc:link, a.imgcc:visited, a.imgcc:active, a.imgcc:hover {background-color: #003262;
 padding: 0px;
 border: 0px none;
 text-decoration: none;
@@ -89,7 +89,7 @@ float: right;
 margin: 4px; 
 }
 
-td.color3 {background-color: #002147;
+td.color3 {background-color: #003262;
 }
 
 td.color2 {background-color: #ED4E33;
@@ -107,11 +107,11 @@ table.OxO {background-color: #FFFFFF;
 font.color1 {color: #FFFFFF;
 }
 
-font.color3 {color: #002147;
+font.color3 {color: #003262;
 }
 
 div.hidden {display: none;
-background-color: #002147;
+background-color: #003262;
 padding: 5px 10px;
 }
 
