@@ -62,20 +62,20 @@ padding-left: 5px;
 padding-right: 5px;
 }
 
-a.menu:link, a.menu:visited, a.menu:active {color: #FFFFFF;
+a.menu:link, a.menu:visited, a.menu:active {color: #003262;
 background-color: #D9661F;
 padding: 0px;
 text-decoration: none;
 }
 
 a.current:link, a.current:visited, a.current:active {color: #D9661F;
-background-color: #FFFFFF;
+background-color: #003262;
 padding: 0px;
 text-decoration: none;
 }
 
 a.menu:hover, a.current:hover {color: #D9661F;
-background-color: #FFFFFF;
+background-color: #003262;
 text-decoration: none;
 }
 
