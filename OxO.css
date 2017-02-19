@@ -2,17 +2,17 @@
 /* http://oxocss.blogspot.com/ */ 
 /* #DD4814, #333333 */
 
-a.link:link, a.link:visited, a.link:active {color: #AB0520;
+a.link:link, a.link:visited, a.link:active {color: #003262;
 background-color: #FFFFFF;
 text-decoration: none;
 }
 
-a.link:hover {color: #AB0520;
+a.link:hover {color: #003262;
 background-color: #FFFFFF;
 text-decoration: underline;
 }
 
-a.img:link, a.img:visited, a.img:active, a.img:hover {background-color: #AB0520;
+a.img:link, a.img:visited, a.img:active, a.img:hover {background-color: #003262;
 padding: 0px;
 border: 0px none;
 text-decoration: none;
@@ -63,18 +63,18 @@ padding-right: 5px;
 }
 
 a.menu:link, a.menu:visited, a.menu:active {color: #FFFFFF;
-background-color: #AB0520;
+background-color: #003262;
 padding: 0px;
 text-decoration: none;
 }
 
-a.current:link, a.current:visited, a.current:active {color: #AB0520;
+a.current:link, a.current:visited, a.current:active {color: #003262;
 background-color: #FFFFFF;
 padding: 0px;
 text-decoration: none;
 }
 
-a.menu:hover, a.current:hover {color: #AB0520;
+a.menu:hover, a.current:hover {color: #003262;
 background-color: #FFFFFF;
 text-decoration: none;
 }
@@ -92,7 +92,7 @@ margin: 4px;
 td.color3 {background-color: #002147;
 }
 
-td.color2 {background-color: #AB0520;
+td.color2 {background-color: #003262;
 }
 
 td.color1 {background-color: #FFFFFF;
