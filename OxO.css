@@ -117,13 +117,3 @@ padding: 0px 0px;
 
 li { margin-top: 0.5em; 
 }
-
-div.toggle {border:1px solid red;
-padding:10px;
-cursor: pointer
-}
-
-div.answer {background:red;
-color:white;
-padding:10px
-}
