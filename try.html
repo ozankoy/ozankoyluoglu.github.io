@@ -1,21 +1,34 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>toggle demo</title>
-  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="jQuery example for Tizen"/>
+    
+    <title>jQuery example for Tizen</title>
+    
+<style>
+	.red {
+	    position:absolute;
+		background:#DD0000;
+		height:120px;
+		width:150px;	
+	}
+</style>
+
+  <script src="js/jquery-2.1.4.min.js"></script>
+
 </head>
 <body>
- 
-<button>Toggle</button>
-<p>Hello</p>
-<p style="display: none">Good Bye</p>
- 
-<script>
-$( "button" ).click(function() {
-  $( "p" ).toggle();
-});
+
+  <button>Click me to toggle the class!</button>
+  <div id="sampleDiv">This DIV is red</div>
+
+<script> 
+	$("button").click(function(){
+	    $("#sampleDiv").toggleClass("red");
+	});
 </script>
- 
+
 </body>
 </html>
