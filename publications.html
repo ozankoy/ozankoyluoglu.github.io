@@ -93,92 +93,6 @@ info">
 			</li>
 			-->
 			
-
-			<a id="recent"> </a>
-			
-			<h3>Technical Reports and Preprints</h3>
-
-			<ul type="square">
-
-
-
-
-			<li> A. Aghazadeh, H. Nisonoff, O. Ocal, Y. Huang, O. O. Koyluoglu, J. Listgarten, and K. Ramchandran,
-			&quot;<b>Sparse epistatic regularization of deep neural networks for inferring fitness functions</b>,&quot;
-			<i>bioRxiv</i>,
-			Nov. 2020. <br>
-			[<a class="link" href="https://www.biorxiv.org/content/10.1101/2020.11.24.396994v1.full.pdf+html">bioRxiv</a>]
-			[<a class="link" href="./pdfs/2020.11.24.396994v1.full.pdf">pdf preprint</a>]
-			[<a class="link" href="javascript:toggleDiv('absTP1');">abstract</a>]
-			[<a class="link" href="javascript:toggleDiv('bibTP1');">BibTeX</a>]	
-		
-			<div id="absTP1" class="hidden">
-			<font class="color1" size="-1">
-			Despite recent advances in high-throughput combinatorial mutagenesis assays, the number of labeled sequences available to predict molecular functions has remained small for the vastness of the sequence space combined with the ruggedness of many fitness functions. Expressive models in machine learning (ML), such as deep neural networks (DNNs), can model the nonlinearities in rugged fitness functions, which manifest as high-order epistatic interactions among the mutational sites. However, in the absence of an inductive bias, DNNs overfit to the small number of labeled sequences available for training. Herein, we exploit the recent biological evidence that epistatic interactions in many fitness functions are sparse; this knowledge can be used as an effective inductive bias to regularize DNNs. We have developed a method for sparse epistatic regularization of DNNs, called the epistatic net (EN), which constrains the number of non-zero coefficients in the spectral representation of DNNs. For larger sequences, where finding the spectral transform becomes computationally intractable, we have developed a scalable extension of EN, which subsamples the combinatorial sequence space uniformly inducing a sparse-graph-code structure, and regularizes DNNs using the resulting novel greedy optimization method. Results on several biological landscapes, from bacterial to protein fitness functions, showed that EN consistently improves the prediction accuracy of DNNs and enables them to outperform baseline supervised models in ML which assume other forms of inductive biases. EN estimates all the higher-order epistatic interactions of DNNs trained on massive combinatorial sequence spaces—a computational problem that takes years to solve without leveraging the epistatic sparsity structure in the fitness functions.
-			</font>
-			</div>
-
-			<div id="bibTP1" class="hidden">
-			<font class="color1" size="-1">
-			@ARTICLE{Aghazadeh2020.11.24.396994,<br>
-				author = {Aghazadeh, Amirali and Nisonoff, Hunter and Ocal, Orhan and Huang, Yijie and Koyluoglu, O. Ozan and Listgarten, Jennifer and Ramchandran, Kannan},<br>
-				title = {Sparse Epistatic Regularization of Deep Neural Networks for Inferring Fitness Functions},<br>
-				elocation-id = {2020.11.24.396994},<br>
-				year = {2020},<br>
-				doi = {10.1101/2020.11.24.396994},<br>
-				publisher = {Cold Spring Harbor Laboratory},<br>
-				journal = {bioRxiv}<br>
-			}
-			</font>
-			</div>
-
-
-			</li>
-
-
-
-
-			<li> A. Aghazadeh, V. Gupta, A. DeWeese, O. O. Koyluoglu, and K. Ramchandran,
-			&quot;<b>BEAR: Sketching BFGS algorithm for ultra-high dimensional feature selection in sublinear memory</b>,&quot;
-			<i>arXiv</i>,
-			Oct. 2020. <br>
-			[<a class="link" href="https://arxiv.org/abs/2010.13829">arXiv</a>]
-			[<a class="link" href="./pdfs/2010.13829.pdf">pdf preprint</a>]
-			[<a class="link" href="javascript:toggleDiv('absTP2');">abstract</a>]
-			[<a class="link" href="javascript:toggleDiv('bibTP2');">BibTeX</a>]	
-		
-			<div id="absTP2" class="hidden">
-			<font class="color1" size="-1">
-			We consider feature selection for applications in machine learning where the dimensionality of the data is so large that it exceeds the working memory of the (local) computing machine. Unfortunately, current large-scale sketching algorithms show poor memory-accuracy trade-off due to the irreversible collision and accumulation of the stochastic gradient noise in the sketched domain. Here, we develop a second-order ultra-high dimensional feature selection algorithm, called BEAR, which avoids the extra collisions by storing the second-order gradients in the celebrated Broyden-Fletcher-Goldfarb-Shannon (BFGS) algorithm in Count Sketch, a sublinear memory data structure from the streaming literature. Experiments on real-world data sets demonstrate that BEAR requires up to three orders of magnitude less memory space to achieve the same classification accuracy compared to the first-order sketching algorithms. Theoretical analysis proves convergence of BEAR with rate O(1/t) in t iterations of the sketched algorithm. Our algorithm reveals an unexplored advantage of second-order optimization for memory-constrained sketching of models trained on ultra-high dimensional data sets.
-			</font>
-			</div>
-
-			<div id="bibTP2" class="hidden">
-			<font class="color1" size="-1">
-			@ARTICLE{aghazadeh2020bear,<br>
-			   	title={BEAR: Sketching BFGS Algorithm for Ultra-High Dimensional Feature Selection in Sublinear Memory}, 
-      			author={Amirali {Aghazadeh} and Vipul {Gupta} and Alex {DeWeese} and O. O. {Koyluoglu} and Kannan {Ramchandran}},
-			  	journal = {ArXiv e-prints},<br>
-				archivePrefix = {arXiv},<br>
-			   	eprint = {2010.13829},<br>
-				primaryClass = {cs.LG},<br>
-			    year = 2020,<br>
-			    month = oct<br>
-			}
-			</font>
-			</div>
-
-
-			</li>
-						
-
-
-						
-
-			
-			</ul>
-			
-			
 			
 			
 			
@@ -186,7 +100,37 @@ info">
 
 			<ul type="square">
 
+			<li> A. Aghazadeh, H. Nisonoff, O. Ocal, D. H. Brookes, Y. Huang, O. O. Koyluoglu, J. Listgarten, and K. Ramchandran,
+			&quot;<b>Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions</b>,&quot;
+			<i>Nature communications</i>,
+			vol. 12, no.5225, Sep. 2021. <br>
+			[<a class="link" href="https://www.nature.com/articles/s41467-021-25371-3">Nature Communications</a>]
+			[<a class="link" href="./pdfs/2020.11.24.396994v1.full.pdf">pdf preprint</a>]
+			[<a class="link" href="javascript:toggleDiv('absJ28');">abstract</a>]
+			[<a class="link" href="javascript:toggleDiv('bibJ28');">BibTeX</a>]	
+		
+			<div id="absJ28" class="hidden">
+			<font class="color1" size="-1">
+			Despite recent advances in high-throughput combinatorial mutagenesis assays, the number of labeled sequences available to predict molecular functions has remained small for the vastness of the sequence space combined with the ruggedness of many fitness functions. Expressive models in machine learning (ML), such as deep neural networks (DNNs), can model the nonlinearities in rugged fitness functions, which manifest as high-order epistatic interactions among the mutational sites. However, in the absence of an inductive bias, DNNs overfit to the small number of labeled sequences available for training. Herein, we exploit the recent biological evidence that epistatic interactions in many fitness functions are sparse; this knowledge can be used as an effective inductive bias to regularize DNNs. We have developed a method for sparse epistatic regularization of DNNs, called the epistatic net (EN), which constrains the number of non-zero coefficients in the spectral representation of DNNs. For larger sequences, where finding the spectral transform becomes computationally intractable, we have developed a scalable extension of EN, which subsamples the combinatorial sequence space uniformly inducing a sparse-graph-code structure, and regularizes DNNs using the resulting novel greedy optimization method. Results on several biological landscapes, from bacterial to protein fitness functions, showed that EN consistently improves the prediction accuracy of DNNs and enables them to outperform baseline supervised models in ML which assume other forms of inductive biases. EN estimates all the higher-order epistatic interactions of DNNs trained on massive combinatorial sequence spaces - a computational problem that takes years to solve without leveraging the epistatic sparsity structure in the fitness functions.
+			</font>
+			</div>
 
+			<div id="bibJ28" class="hidden">
+			<font class="color1" size="-1">
+			@ARTICLE{Aghazadeh2021Epistatic,<br>
+				author = {Aghazadeh, Amirali and Nisonoff, Hunter and Ocal, Orhan and Brookes, David H. and Huang, Yijie and Koyluoglu, O. Ozan and Listgarten, Jennifer and Ramchandran, Kannan},<br>
+				title = {Epistatic Net allows the sparse spectral regularization of deep neural networks for inferring fitness functions},<br>
+				year = {2021},<br>
+				volume={12},<br>
+	  			number={5225},<br>
+				doi = {10.1038/s41467-021-25371-3},<br>
+				journal = {Nature Communications}<br>
+			}
+			</font>
+			</div>
+
+
+			</li>
 
 			<li> S. Kadhe, A. Heidarzadeh, A. Sprintson, O. O. Koyluoglu,
 				&quot;<b>Single-server private information retrieval schemes are equivalent to locally recoverable coding schemes</b>,&quot;
@@ -208,8 +152,8 @@ info">
 	<font class="color1" size="-1">
 	@ARTICLE{9335966,<br>
 	  author={S. {Kadhe} and A. {Heidarzadeh} and A. {Sprintson} and O. O. {Koyluoglu}},<br>
-	  journal={IEEE Journal on Selected Areas in Information Theory}, <br>
-	  title={Single-Server Private Information Retrieval Schemes are Equivalent to Locally Recoverable Coding Schemes}, <br>
+	  journal={IEEE Journal on Selected Areas in Information Theory},<br>
+	  title={Single-Server Private Information Retrieval Schemes are Equivalent to Locally Recoverable Coding Schemes},<br>
 	  year={2021},<br>
 	  volume={2},<br>
 	  number={1},<br>
@@ -1128,24 +1072,44 @@ year={2009}<br>
 			</ul>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 			
 			
 			<h3>Conference Papers and Abstracts</h3>
 			<ul type="square">
 
+
+			<li> A. Aghazadeh, V. Gupta, A. DeWeese, O. O. Koyluoglu, and K. Ramchandran,
+			&quot;<b>BEAR: Sketching BFGS algorithm for ultra-high dimensional feature selection in sublinear memory</b>,&quot;
+			in <i>Proceedings of the 2nd Mathematical and Scientific Machine Learning Conference, PMLR 145:75-92</i>,
+			Aug. 2022. <br>
+			[<a class="link" href="https://proceedings.mlr.press/v145/aghazadeh22a.html">PMLR</a>]
+			[<a class="link" href="./pdfs/2010.13829.pdf">pdf preprint</a>]
+			[<a class="link" href="javascript:toggleDiv('absC58');">abstract</a>]
+			[<a class="link" href="javascript:toggleDiv('bibC58');">BibTeX</a>]	
+		
+			<div id="absC58" class="hidden">
+			<font class="color1" size="-1">
+			We consider feature selection for applications in machine learning where the dimensionality of the data is so large that it exceeds the working memory of the (local) computing machine. Unfortunately, current large-scale sketching algorithms show poor memory-accuracy trade-off in selecting features in high dimensions due to the irreversible collision and accumulation of the stochastic gradient noise in the sketched domain. Here, we develop a second-order feature selection algorithm, called BEAR, which avoids the extra collisions by efficiently storing the second-order stochastic gradients of the celebrated Broyden-Fletcher-Goldfarb-Shannon (BFGS) algorithm in Count Sketch, using a memory cost that grows sublinearly with the size of the feature vector. BEAR reveals an unexplored advantage of second-order optimization for memory-constrained high-dimensional gradient sketching. Our extensive experiments on several real-world data sets from genomics to language processing demonstrate that BEAR requires up to three orders of magnitude less memory space to achieve the same classification accuracy compared to the first-order sketching algorithms with a comparable run time. Our theoretical analysis further proves the global convergence of BEAR with O(1/t) rate in t iterations of the sketched algorithm.
+			</font>
+			</div>
+
+			<div id="bibC58" class="hidden">
+			<font class="color1" size="-1">
+			@INPROCEEDINGS{aghazadeh2022bear,<br>
+		   	title={BEAR: Sketching BFGS Algorithm for Ultra-High Dimensional Feature Selection in Sublinear Memory},<br>
+   			author={Amirali {Aghazadeh} and Vipul {Gupta} and Alex {DeWeese} and O. O. {Koyluoglu} and Kannan {Ramchandran}},<br>
+   			booktitle = {Proceedings of the 2nd Mathematical and Scientific Machine Learning Conference},<br>
+   			series = 	 {Proceedings of Machine Learning Research},<br>
+   			volume = 	 {145},<br>
+   			pages = 	 {75--92},<br>
+		    	year = 2022,<br>
+		    	month = aug<br>
+			}
+			</font>
+			</div>
+
+
+			</li>
 
 
 						<li> S. Kadhe,  N. Rajaraman, O. O. Koyluoglu, and K. Ramchandran,
